@@ -21,8 +21,9 @@ authors = [
 
 [sections]
 numbering = true
-prefix = "Вопрос"
+prefix = "Лекция "
 sections = [
-  "Жить или не жить?"
+  "1."
+  "2."
 ]
 
