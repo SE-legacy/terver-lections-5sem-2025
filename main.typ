@@ -12,13 +12,10 @@
 #{
   let numbering = ""
   if details.sections.numbering {
-    if details.sections.prefix.len() > 0 {
-      numbering += details.sections.prefix + " "
-    }
     numbering += "1.1. "
   }
   for section in details.sections.sections {
-    heading(eval(section, mode: "markup"), numbering: numbering, hanging-indent: 0pt)
+    heading(eval("", mode: "markup"), numbering: details.sections.prefix + numbering, hanging-indent: 0pt)
     include strfmt("sections/{:02}.typ", i)
     pagebreak(weak: true)
     i += 1
