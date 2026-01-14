@@ -1,0 +1,13 @@
+# Чтобы у всех tab номально работал
+root = true
+[*]
+indent_style = tab
+indent_size = 4
+
+[*.{html,css,scss,vue,js,jsx,ts,tsx,typ,md,json,tex,csproj,bib,yaml,toml}]
+indent_style = space
+indent_size = 2
+
+[*.{sml,hs}]
+indent_style = space
+indent_size = 2
