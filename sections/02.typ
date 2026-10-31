@@ -67,12 +67,12 @@ M(eta - limits(eta)^(\^))^2 -> min_(a, b)\
 
 M(eta - a xi - b)^2 = L(a, b)\
 
-(diff L(a, b))/(diff a) = diff/(diff a) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) - xi =\ 
+(partial L(a, b))/(partial a) = partial/(partial a) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) - xi =\ 
 = (-2) dot M(xi eta - a xi^2 - b xi) = (-2) [M xi eta - a M xi^2 - b M xi] = 0
 $
 
 $
-(diff L(a, b))/(diff b) = diff/(diff b) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) =\
+(partial L(a, b))/(partial b) = partial/(partial b) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) =\
 = (-2) (M eta - a M xi - b) = 0
 $
 
