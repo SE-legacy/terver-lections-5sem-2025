@@ -2,4 +2,4 @@
 .ethersync
 sections/.editorconfig
 *.rnote
-.vscode/
+.vscode
