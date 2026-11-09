@@ -12,7 +12,7 @@ $
 + $M(xi eta | xi) = xi M(eta | xi)$
 + $M(M(eta | xi)) = M(eta)$
 
-/ Определение: Функцией регрессиии называется функция $g(xi) = M eta |xi $
+/ Определение: Функцией регрессии называется функция $g(xi) = M eta |xi $
 
 Ф. регрессии используется для оценки $limits(eta)^(\^) = g (xi)$
 
@@ -23,7 +23,7 @@ $
 
 $(xi, eta)$ Предполагаем $exists f(x): n = f(xi)$. $f(x)$ --- измеримая
 
-/ Теорема о наилучшей оценке: Пусть $(xi, eta)$ --- двумераная случайная 
+/ Теорема о наилучшей оценке: Пусть $(xi, eta)$ --- двухмерная случайная 
 	величина; при этом $xi, eta$ --- зависимое
 
 Наилучшей (МНК) оценкой связи $xi, eta$ является функция регрессии
@@ -67,12 +67,12 @@ M(eta - limits(eta)^(\^))^2 -> min_(a, b)\
 
 M(eta - a xi - b)^2 = L(a, b)\
 
-(diff L(a, b))/(diff a) = diff/(diff a) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) - xi =\ 
+(partial L(a, b))/(partial a) = partial/(partial a) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) - xi =\ 
 = (-2) dot M(xi eta - a xi^2 - b xi) = (-2) [M xi eta - a M xi^2 - b M xi] = 0
 $
 
 $
-(diff L(a, b))/(diff b) = diff/(diff b) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) =\
+(partial L(a, b))/(partial b) = partial/(partial b) M(eta - a xi - b)^2 = (-2) M(eta - a xi - b) =\
 = (-2) (M eta - a M xi - b) = 0
 $
 
@@ -98,7 +98,7 @@ a = (c o v (xi , eta ))/(D xi) dot (sqrt(D eta))/(sqrt(D eta)) =\
 b = M eta - r (sigma_eta)/(sigma_xi) dot M xi
 $
 
-Доказательство $min$ --- самостаятельно, следуя теореме
+Доказательство $min$ --- самостоятельно, следуя теореме
 
 Уравнение регрессии ($eta$ на $xi$ (как откликается изменение $eta$ на изменение $xi$)):
 $
